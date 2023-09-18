@@ -27,6 +27,10 @@ header a {
   letter-spacing: -0.64px;
 }
 
+header a:hover{
+  color: black;
+}
+
 header .bg-circle1 {
   width: 1220px;
   height: 1220px;

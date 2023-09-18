@@ -4,4 +4,28 @@
   }
 
 
+  header .bg-circle2 {
+
+    width: 268px;
+    height: 268px;
+    border-radius: 268px;
+ 
+    margin-top: -134px;
+    margin-left: -134px;
+  }
+
+
+   
+  .hero {
+    flex-wrap: wrap;
+  }
+
+  .hero .logo {
+    margin-left: 36px;
+  }
+
+  .hero .search-btn {
+    margin-left: 72px;
+  }
+
 }
