@@ -1,21 +1,25 @@
 @media (max-width:1024px){
-  .container{
+  .container {
     max-width: 1024px;
   }
 
-
   header .bg-circle2 {
-
     width: 268px;
     height: 268px;
     border-radius: 268px;
- 
     margin-top: -134px;
     margin-left: -134px;
   }
 
+  header .bg-circle1 {
+    margin-left: 649px;
+    margin-top: -47px;
+    width: 1118px;
+    height: 1118px;
+    border-radius: 1118px;
+    
+  }
 
-   
   .hero {
     flex-wrap: wrap;
   }
@@ -27,5 +31,16 @@
   .hero .search-btn {
     margin-left: 72px;
   }
+
+  .hero .search-btn a img {
+    stroke : "black";
+  }
+
+  .creating {
+    margin-left: 72px;
+   
+  }
+
+
 
 }
