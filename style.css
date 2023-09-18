@@ -1,12 +1,14 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: Poppins;
 }
 
 .container {
-  max-width: 1440px;
+  width: 1440px;
+  height: 1024px;
   margin: 0 auto;
 }
 
@@ -14,6 +16,7 @@ header {
   position: relative;
   overflow: hidden;
 }
+
 header a {
   text-decoration: none;
   color: var(--text-grey, #999FAE);
@@ -23,6 +26,7 @@ header a {
   line-height: normal;
   letter-spacing: -0.64px;
 }
+
 header .bg-circle1 {
   width: 1220px;
   height: 1220px;
@@ -34,6 +38,7 @@ header .bg-circle1 {
   margin-left: 830px;
   margin-top: -98px;
 }
+
 header .bg-circle2 {
   position: absolute;
   width: 400px;
@@ -45,17 +50,19 @@ header .bg-circle2 {
   margin-top: -200px;
   margin-left: -200px;
 }
+
 header .bg-circle3 {
   position: absolute;
-  width: 200px;
-  height: 200px;
-  border-radius: 200px;
+  width: 165px;
+  height: 165px;
+  border-radius: 165px;
   background: var(--color-accent-01, #FFDC60);
   z-index: -1;
   overflow: hidden;
-  margin-top: 212px;
-  margin-left: 615px;
+  top: 225px;
+  left: 625px;
 }
+
 header .bg-circle4 {
   position: absolute;
   width: 32px;
@@ -66,28 +73,74 @@ header .bg-circle4 {
   margin-left: 600px;
 }
 
+header .bg-circle5 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background-color: #ffffff;
+  top: 621px;
+  left: 1210px;
+  z-index: -0.5;
+}
+
+header .bg-circle6 {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  background-color: #FAB8C4;
+  top: 451px;
+  left: 100px;
+}
+
+header .bg-circle7 {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border-radius: 180px;
+  background-color: #FAB8C4;
+  top: 934px;
+  left: 790px;
+}
+
 .hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding-top: 64px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .hero .logo {
   margin-left: 100px;
 }
+
 .hero .nav-links {
   margin-left: 59px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 54px;
 }
+
 .hero .choose {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 14px;
 }
+
 .hero .search-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 40px;
   margin-left: 386px;
 }
+
 .hero .get-started a {
   width: 180px;
   height: 72px;
@@ -98,11 +151,20 @@ header .bg-circle4 {
 }
 
 .creating {
-  margin-left: 72px;
+  position: relative;
+  margin-left: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 125px;
   gap: 188px;
 }
+
+.creating .texts {
+  max-width: 443px;
+  max-height: 580px;
+}
+
 .creating h1 {
   color: #292930;
   font-size: 96px;
@@ -111,12 +173,14 @@ header .bg-circle4 {
   line-height: 99.327%;
   letter-spacing: -2.4px;
 }
+
 .creating h1 .liner {
   width: 70px;
   height: 8px;
   background-color: #2522BA;
   display: inline-block;
 }
+
 .creating h1 .point {
   width: 15px;
   height: 15px;
@@ -124,6 +188,7 @@ header .bg-circle4 {
   background-color: #2522BA;
   display: inline-block;
 }
+
 .creating p {
   max-width: 378px;
   max-height: 54px;
@@ -135,14 +200,21 @@ header .bg-circle4 {
   margin-top: 24px;
   margin-bottom: 69px;
 }
+
 .creating .get-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  gap: 0px;
+  gap: 32px;
 }
+
 .creating .action {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 16px;
 }
+
 .creating .getsby a {
   padding: 29px 46px;
   border-radius: 20px;
@@ -150,24 +222,34 @@ header .bg-circle4 {
   color: var(--color-white, #FFF);
 }
 
+.created {
+  position: absolute;
+  top: 0;
+  left: 435px;
+}
+
 .computer-detals {
   position: relative;
 }
+
 .computer-detals :nth-child(2) {
   position: absolute;
   z-index: 3;
   right: -40px;
   top: 15px;
 }
+
 .computer-detals :nth-child(3) {
   position: absolute;
   z-index: 3;
   right: 590px;
   top: 300px;
 }
+
 .computer-detals :nth-child(4) {
   position: absolute;
   z-index: 3;
   right: 153px;
   top: 550px;
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */
