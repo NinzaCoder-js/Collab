@@ -57,7 +57,7 @@
   }
 
   .hero .search-btn .search-icon :nth-child(2) {
-    display: block;
+    display: inline-block;
   }
 
   .hero .search-btn .search-icon :nth-child(1) {

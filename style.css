@@ -28,8 +28,8 @@ header a {
 }
 
 header a:hover {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
+  -webkit-transition-duration: 700ms;
+          transition-duration: 700ms;
   color: #292930;
 }
 
