@@ -25,6 +25,20 @@ header {
     letter-spacing: -0.64px;
   }
 
+  a:hover{
+    // position: relative;
+    transition-duration: 500ms;
+    color: #292930;
+    // ::before{
+    //   content: "";
+    //   position: absolute;
+    //   width: 15px;
+    //   z-index: 2;
+    //   height: 2px;
+    //   background-color: #2522BA;
+    // }
+  }
+
   .bg-circle1 {
     width: 1220px;
     height: 1220px;
@@ -128,6 +142,13 @@ header {
     display: flex;
     gap: 40px;
     margin-left: 386px;
+
+    .search-icon{
+      :nth-child(2){
+         display: none;
+      }
+    }
+
   }
 
   .get-started {
@@ -228,6 +249,18 @@ header {
     z-index: 3;
     right: -40px;
     top: 15px;
+  }
+
+   .bg-circle3 {
+    position: absolute;
+    width: 165px;
+    height: 165px;
+    border-radius: 165px;
+    background: var(--color-accent-01, #FFDC60);
+    z-index: -1;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
   }
 
   :nth-child(3) {

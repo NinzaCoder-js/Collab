@@ -16,8 +16,7 @@
     margin-top: -47px;
     width: 1118px;
     height: 1118px;
-    border-radius: 1118px;
-    
+    border-radius: 1118px; 
   }
 
   .hero {
@@ -32,15 +31,37 @@
     margin-left: 72px;
   }
 
-  .hero .search-btn a img {
-    stroke : "black";
-  }
-
   .creating {
     margin-left: 72px;
-   
   }
 
+  header .bg-circle6{
+    display: none;
+  }
 
+  header .bg-circle1{
+    max-width: 1118px;
+    max-height: 1118px;
+  }
+
+  .created {
+    left: 390px;
+  }
+
+  header .bg-circle7 {
+    width: 140px;
+    height: 140px;
+    border-radius: 140px;
+    top: 954px;
+    left: 651px;
+  }
+
+  .hero .search-btn .search-icon :nth-child(2) {
+    display: block;
+  }
+
+  .hero .search-btn .search-icon :nth-child(1) {
+    display: none;
+  }
 
 }

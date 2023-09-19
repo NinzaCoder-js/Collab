@@ -27,8 +27,10 @@ header a {
   letter-spacing: -0.64px;
 }
 
-header a:hover{
-  color: black;
+header a:hover {
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  color: #292930;
 }
 
 header .bg-circle1 {
@@ -145,6 +147,10 @@ header .bg-circle7 {
   margin-left: 386px;
 }
 
+.hero .search-btn .search-icon :nth-child(2) {
+  display: none;
+}
+
 .hero .get-started a {
   width: 180px;
   height: 72px;
@@ -241,6 +247,18 @@ header .bg-circle7 {
   z-index: 3;
   right: -40px;
   top: 15px;
+}
+
+.computer-detals .bg-circle3 {
+  position: absolute;
+  width: 165px;
+  height: 165px;
+  border-radius: 165px;
+  background: var(--color-accent-01, #FFDC60);
+  z-index: -1;
+  overflow: hidden;
+  top: 0px;
+  left: 0px;
 }
 
 .computer-detals :nth-child(3) {
