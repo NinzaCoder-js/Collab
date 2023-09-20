@@ -56,12 +56,10 @@
     left: 651px;
   }
 
-  .hero .search-btn .search-icon :nth-child(2) {
-    display: inline-block;
+  #search-btn svg path {
+    stroke: black;
   }
 
-  .hero .search-btn .search-icon :nth-child(1) {
-    display: none;
-  }
+ 
 
 }

@@ -27,12 +27,6 @@ header a {
   letter-spacing: -0.64px;
 }
 
-header a:hover {
-  -webkit-transition-duration: 700ms;
-          transition-duration: 700ms;
-  color: #292930;
-}
-
 header .bg-circle1 {
   width: 1220px;
   height: 1220px;
@@ -145,10 +139,6 @@ header .bg-circle7 {
   display: flex;
   gap: 40px;
   margin-left: 386px;
-}
-
-.hero .search-btn .search-icon :nth-child(2) {
-  display: none;
 }
 
 .hero .get-started a {

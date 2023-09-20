@@ -25,12 +25,7 @@ header {
     letter-spacing: -0.64px;
   }
 
-  a:hover{
-  
-    transition-duration: 700ms;
-    color: #292930;
-  
-  }
+ 
 
   .bg-circle1 {
     width: 1220px;
@@ -135,13 +130,7 @@ header {
     display: flex;
     gap: 40px;
     margin-left: 386px;
-
-    .search-icon{
-      :nth-child(2){
-         display: none;
-      }
-    }
-
+    
   }
 
   .get-started {
