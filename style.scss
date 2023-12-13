@@ -7,13 +7,14 @@
 
 .container {
   width: 1440px;
-  height: 1024px;
+  height: 1038px;
   margin: 0 auto;
 }
 
 header {
+  overflow-x: hidden;
   position: relative;
-  overflow: hidden;
+  
 
   a {
     text-decoration: none;
@@ -25,18 +26,22 @@ header {
     letter-spacing: -0.64px;
   }
 
- 
+  .box-circle{
+    width: 610px;
+    height: 1220px;
+    position: absolute;
+    margin-left: 830px;
+    margin-top: -98px;
+  }
 
   .bg-circle1 {
     width: 1220px;
     height: 1220px;
     border-radius: 1220px;
     background: var(--color-primary, #5956E9);
-    position: absolute;
     z-index: -1;
     overflow: hidden;
-    margin-left: 830px;
-    margin-top: -98px;
+    
   }
 
   .bg-circle2 {
@@ -99,7 +104,7 @@ header {
     height: 180px;
     border-radius: 180px;
     background-color: #FAB8C4;
-    top: 934px;
+    top: 950px;
     left: 790px;
   }
 
@@ -260,3 +265,20 @@ header {
   }
 
 }
+
+// powerfull section startrd
+
+// .powerfull {
+//  background-color: #27272E;
+//  h2 {
+//   padding-top: 150px;
+//   margin-left: 468px;
+//   width: 772px;
+//   height: 160px;
+//   color: var(--color-white, #FFF);
+//   font-size: 70px;
+//   font-weight: 500;
+//   line-height: 100%; /* 80px */
+//   letter-spacing: -2px;
+//  }
+// }
